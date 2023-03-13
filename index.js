@@ -605,4 +605,4 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, () => console.log(`it's alive on http://localhost:${PORT}`));
 
-module.exports = app
+export default app

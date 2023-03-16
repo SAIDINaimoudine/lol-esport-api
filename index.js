@@ -44,6 +44,7 @@ app.get("/", (req, res) => {
               name: "League of Legends European Championship",
               acronym: "LEC",
               region: "EMEA",
+              image:"https://storage.googleapis.com/lol-esport-bucket/league/lec.png",
               teams:[
                 {
                     id: nanoid(10),

@@ -392,7 +392,7 @@ app.get("/", (req, res) => {
                             summonerName: "113",
                             firstName: "Doğukan",
                             lastName: "Balci",
-                            country: getUnicodeFlagIcon('TK'),
+                            country: getUnicodeFlagIcon('TR'),
                             role: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/113.png",
                         },

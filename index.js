@@ -2,6 +2,7 @@ import  express  from "express"
 import cors from "cors"
 import { nanoid } from "nanoid"
 // import { Storage } from "@google-cloud/storage"
+import getUnicodeFlagIcon from 'country-flag-icons/unicode'
 
 
 const app = express()
@@ -85,7 +86,7 @@ app.get("/", (req, res) => {
                             summonerName: "Hans Sama",
                             firstName: "Steven",
                             lastName: "Liv",
-                            country:"France",
+                            country:getUnicodeFlagIcon('FR'),
                             role: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/HansSama.png",
                         },

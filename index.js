@@ -100,7 +100,7 @@ app.get("/", (req, res) => {
                             firstName: "Mihael",
                             lastName: "Mehle",
                             country:getUnicodeFlagIcon('SI'),
-                            role:"",
+                            role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Mikyx.png",
                         }
@@ -159,7 +159,7 @@ app.get("/", (req, res) => {
                             firstName: "Norman",
                             lastName: "Kaiser",
                             country: getUnicodeFlagIcon('DE'),
-                            role:"",
+                            role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Kaiser.png",
                         }
@@ -218,7 +218,7 @@ app.get("/", (req, res) => {
                             firstName: "Adrian",
                             lastName: "Trybus",
                             country: getUnicodeFlagIcon('PL'),
-                            role:"",
+                            role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Trymbi.png",
                         }
@@ -277,7 +277,7 @@ app.get("/", (req, res) => {
                             firstName: "Zdravets",
                             lastName: "Iliev Galabov",
                             country: getUnicodeFlagIcon('BG'),
-                            role:"",
+                            role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Hylissang.png",
                         }
@@ -336,7 +336,7 @@ app.get("/", (req, res) => {
                             firstName: "Hendrik",
                             lastName: "Reijenga",
                             country: getUnicodeFlagIcon('NL'),
-                            role:"",
+                            role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Advienne.png",
                         }
@@ -395,7 +395,7 @@ app.get("/", (req, res) => {
                             firstName: "Labros",
                             lastName: "Papoutsakis",
                             country: getUnicodeFlagIcon('GR'),
-                            role:"",
+                            role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Labrov.png",
                         }
@@ -454,7 +454,7 @@ app.get("/", (req, res) => {
                             firstName: "Jeonghoon",
                             lastName: "Lee",
                             country: getUnicodeFlagIcon('KR'),
-                            role:"",
+                            role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/JeongHoon.png",
                         }
@@ -513,7 +513,7 @@ app.get("/", (req, res) => {
                             firstName: "Mertai",
                             lastName: "Sari",
                             country: getUnicodeFlagIcon('GR'),
-                            role:"",
+                            role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Mersa.png",
                         }
@@ -572,7 +572,7 @@ app.get("/", (req, res) => {
                             firstName: "Dino",
                             lastName: "Tot",
                             country: getUnicodeFlagIcon('HR'),
-                            role:"",
+                            role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Limit.png",
                         }

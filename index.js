@@ -649,7 +649,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role:'top',
-            image:'https://storage.cloud.google.com/lol-esport-bucket/players/Unknown.png',
+            image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",
             rating: 'rating'
@@ -658,7 +658,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role:'jungle',
-            image:'https://storage.cloud.google.com/lol-esport-bucket/players/Unknown.png',
+            image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",
             rating: 'rating'
@@ -667,7 +667,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role:'mid',
-            image:'https://storage.cloud.google.com/lol-esport-bucket/players/Unknown.png',
+            image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",
             rating: 'rating'
@@ -676,7 +676,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role:'adc',
-            image:'https://storage.cloud.google.com/lol-esport-bucket/players/Unknown.png',
+            image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",
             rating: 'rating'
@@ -685,7 +685,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role: 'supp',
-            image:'https://storage.cloud.google.com/lol-esport-bucket/players/Unknown.png',
+            image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",
             rating: 'rating'

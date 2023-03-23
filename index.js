@@ -659,7 +659,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role:'jungle',
-            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungl.svg",
+            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
             image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",

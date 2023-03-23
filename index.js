@@ -61,7 +61,7 @@ app.get("/", (req, res) => {
                             lastName: "Çelik",
                             country: getUnicodeFlagIcon('TR'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/BrokenBlade.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         },
@@ -72,7 +72,7 @@ app.get("/", (req, res) => {
                             lastName: "Sundelin",
                             country:[getUnicodeFlagIcon('SE'), getUnicodeFlagIcon('PE')],
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Yike.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         },
@@ -83,7 +83,7 @@ app.get("/", (req, res) => {
                             lastName: "Borregaard Winther",
                             country:getUnicodeFlagIcon('DK'),
                             role:"mid",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/CaPs.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         },
@@ -94,7 +94,7 @@ app.get("/", (req, res) => {
                             lastName: "Liv",
                             country:getUnicodeFlagIcon('FR'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/HansSama.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         },
@@ -105,7 +105,7 @@ app.get("/", (req, res) => {
                             lastName: "Mehle",
                             country:getUnicodeFlagIcon('SI'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Mikyx.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         }
@@ -125,7 +125,7 @@ app.get("/", (req, res) => {
                             lastName: "Kyung",
                             country: getUnicodeFlagIcon('KR'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Photon.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         },
@@ -136,7 +136,7 @@ app.get("/", (req, res) => {
                             lastName: "Zhou",
                             country: getUnicodeFlagIcon('CN'),
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Bo.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         },
@@ -147,7 +147,7 @@ app.get("/", (req, res) => {
                             lastName: "Perković",
                             country: getUnicodeFlagIcon('HR'),
                             role:"mid",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Perkz.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         },
@@ -158,7 +158,7 @@ app.get("/", (req, res) => {
                             lastName: "Lipp",
                             country: getUnicodeFlagIcon('DE'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Upset.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         },
@@ -169,7 +169,7 @@ app.get("/", (req, res) => {
                             lastName: "Kaiser",
                             country: getUnicodeFlagIcon('DE'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Kaiser.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         }
@@ -189,7 +189,7 @@ app.get("/", (req, res) => {
                             lastName: "Jensen",
                             country: getUnicodeFlagIcon('Dk'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Szygenda.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         },
@@ -200,7 +200,7 @@ app.get("/", (req, res) => {
                             lastName: "Kim",
                             country: getUnicodeFlagIcon('KR'),
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Malrang.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         },
@@ -211,7 +211,7 @@ app.get("/", (req, res) => {
                             lastName: "Larsson",
                             country: getUnicodeFlagIcon('SE'),
                             role:"mid",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Larssen.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         },
@@ -222,7 +222,7 @@ app.get("/", (req, res) => {
                             lastName: "Stamkopoulos",
                             country: getUnicodeFlagIcon('GR'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Comp.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         },
@@ -233,7 +233,7 @@ app.get("/", (req, res) => {
                             lastName: "Trybus",
                             country: getUnicodeFlagIcon('PL'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Trymbi.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         }
@@ -253,7 +253,7 @@ app.get("/", (req, res) => {
                             lastName: "Kim",
                             country: getUnicodeFlagIcon('KR'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Carzzy.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         },
@@ -264,7 +264,7 @@ app.get("/", (req, res) => {
                             lastName: "Prades",
                             country: getUnicodeFlagIcon('ES'),
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Elyoya.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         },
@@ -275,7 +275,7 @@ app.get("/", (req, res) => {
                             lastName: "Dincer",
                             country: [getUnicodeFlagIcon('BE'), getUnicodeFlagIcon('TR')],
                             role:"mid",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Nisqy.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         },
@@ -286,7 +286,7 @@ app.get("/", (req, res) => {
                             lastName: "Orság",
                             country: getUnicodeFlagIcon('CZ'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Carzzy.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         },
@@ -297,7 +297,7 @@ app.get("/", (req, res) => {
                             lastName: "Iliev Galabov",
                             country: getUnicodeFlagIcon('BG'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Hylissang.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         }
@@ -317,7 +317,7 @@ app.get("/", (req, res) => {
                             lastName: "Muñoz Jiménez",
                             country: getUnicodeFlagIcon('ES'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Oscarinin.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         },
@@ -328,7 +328,7 @@ app.get("/", (req, res) => {
                             lastName: "Martín",
                             country: getUnicodeFlagIcon('SE'),
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Razork.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         },
@@ -339,7 +339,7 @@ app.get("/", (req, res) => {
                             lastName: "Brázda",
                             country: getUnicodeFlagIcon('CZ'),
                             role:"mid",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Humanoid.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         },
@@ -350,7 +350,7 @@ app.get("/", (req, res) => {
                             lastName: "Erik Larsson",
                             country: getUnicodeFlagIcon('SE'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Rekkles.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         },
@@ -361,7 +361,7 @@ app.get("/", (req, res) => {
                             lastName: "Reijenga",
                             country: getUnicodeFlagIcon('NL'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Advienne.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         }
@@ -381,7 +381,7 @@ app.get("/", (req, res) => {
                             lastName: "Maanane",
                             country: getUnicodeFlagIcon('FR'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Adam.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         },
@@ -392,7 +392,7 @@ app.get("/", (req, res) => {
                             lastName: "Borlie",
                             country: getUnicodeFlagIcon('FR'),
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Sheo.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         },
@@ -403,7 +403,7 @@ app.get("/", (req, res) => {
                             lastName: "Bizriken",
                             country: getUnicodeFlagIcon('FR'),
                             role:"mid",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Nuc.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         },
@@ -414,7 +414,7 @@ app.get("/", (req, res) => {
                             lastName: "Marušič",
                             country: getUnicodeFlagIcon('SI'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Crownie.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         },
@@ -425,7 +425,7 @@ app.get("/", (req, res) => {
                             lastName: "Papoutsakis",
                             country: getUnicodeFlagIcon('GR'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Labrov.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         }
@@ -445,7 +445,7 @@ app.get("/", (req, res) => {
                             lastName: "Wiestål",
                             country: getUnicodeFlagIcon('SE'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Finn.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         },
@@ -456,7 +456,7 @@ app.get("/", (req, res) => {
                             lastName: "Balci",
                             country: getUnicodeFlagIcon('TR'),
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/113.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         },
@@ -467,7 +467,7 @@ app.get("/", (req, res) => {
                             lastName: "Ilyasov",
                             country: [getUnicodeFlagIcon('NO'), getUnicodeFlagIcon('RU')],
                             role:'mid',
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Lider.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         },
@@ -478,7 +478,7 @@ app.get("/", (req, res) => {
                             lastName: "Kobberup",
                             country: getUnicodeFlagIcon('DK'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Kobbe.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         },
@@ -489,7 +489,7 @@ app.get("/", (req, res) => {
                             lastName: "Lee",
                             country: getUnicodeFlagIcon('KR'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/JeongHoon.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         }
@@ -509,7 +509,7 @@ app.get("/", (req, res) => {
                             lastName: "Murase",
                             country: getUnicodeFlagIcon('JP'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Evi.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png",
                         },
@@ -520,7 +520,7 @@ app.get("/", (req, res) => {
                             lastName: "Jankowski",
                             country: getUnicodeFlagIcon('PL'),
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Jankos.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png"
                         },
@@ -531,7 +531,7 @@ app.get("/", (req, res) => {
                             lastName: "Lee",
                             country: getUnicodeFlagIcon('KR'),
                             role:"mid",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Ruby.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png"
                         },
@@ -542,7 +542,7 @@ app.get("/", (req, res) => {
                             lastName: "Gullvag Kepple",
                             country: getUnicodeFlagIcon('NO'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Jackspektra.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png"
                         },
@@ -553,7 +553,7 @@ app.get("/", (req, res) => {
                             lastName: "Sari",
                             country: getUnicodeFlagIcon('GR'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Mersa.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png"
                         }
@@ -573,7 +573,7 @@ app.get("/", (req, res) => {
                             lastName: "Pascu",
                             country: getUnicodeFlagIcon('RO'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Odoamne.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png",
                         },
@@ -584,7 +584,7 @@ app.get("/", (req, res) => {
                             lastName: "Dragomir",
                             country: getUnicodeFlagIcon('RO'),
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Xerxe.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png"
                         },
@@ -595,7 +595,7 @@ app.get("/", (req, res) => {
                             lastName: "Berrié",
                             country: getUnicodeFlagIcon('FR'),
                             role:"mid",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Vetheo.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png"
                         },
@@ -606,7 +606,7 @@ app.get("/", (req, res) => {
                             lastName: "Jiru",
                             country: getUnicodeFlagIcon('CZ'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Patrik.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png"
                         },
@@ -617,7 +617,7 @@ app.get("/", (req, res) => {
                             lastName: "Tot",
                             country: getUnicodeFlagIcon('HR'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Limit.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png"
                         }
@@ -637,7 +637,7 @@ app.get("/", (req, res) => {
                             lastName: "Scharoll",
                             country: getUnicodeFlagIcon('DE'),
                             role:"top",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Irrelevant.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         },
@@ -648,7 +648,7 @@ app.get("/", (req, res) => {
                             lastName: "Van Woensel",
                             country: getUnicodeFlagIcon('NL'),
                             role:"jungle",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Markoon.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         },
@@ -659,7 +659,7 @@ app.get("/", (req, res) => {
                             lastName: "Gamani",
                             country: getUnicodeFlagIcon('DE'),
                             role:"mid",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Sertuss.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         },
@@ -670,7 +670,7 @@ app.get("/", (req, res) => {
                             lastName: "Foucou",
                             country: getUnicodeFlagIcon('FR'),
                             role:"adc",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Exakick.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         },
@@ -681,7 +681,7 @@ app.get("/", (req, res) => {
                             lastName: "Jensen",
                             country: getUnicodeFlagIcon('DK'),
                             role:"support",
-                            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+                            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Doss.png",
                             team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         }
@@ -699,7 +699,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role:'top',
-            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
+            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
             image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",
@@ -709,7 +709,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role:'jungle',
-            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
+            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
             image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",
@@ -719,7 +719,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role:'mid',
-            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
+            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
             image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",
@@ -729,7 +729,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role:'adc',
-            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
+            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
             image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",
@@ -739,7 +739,7 @@ app.get("/unknown", (req, res) => {
             id:nanoid(10),
             team:'team',
             role: 'support',
-            role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
+            role_image: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
             image:'https://storage.googleapis.com/lol-esport-bucket/players/Random.png',
             summonerName: 'unknown',
             country: "country",

@@ -63,6 +63,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/BrokenBlade.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         },
                         {
                             id: nanoid(10),
@@ -73,6 +74,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Yike.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         },
                         {
                             id: nanoid(10),
@@ -83,6 +85,7 @@ app.get("/", (req, res) => {
                             role:"mid",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/CaPs.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         },
                         {
                             id: nanoid(10),
@@ -93,6 +96,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/HansSama.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         },
                         {
                             id: nanoid(10),
@@ -103,6 +107,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Mikyx.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/G2.png"
                         }
                     ]
                 },
@@ -122,6 +127,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Photon.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         },
                         {
                             id: nanoid(10),
@@ -132,6 +138,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Bo.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         },
                         {
                             id: nanoid(10),
@@ -142,6 +149,7 @@ app.get("/", (req, res) => {
                             role:"mid",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Perkz.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         },
                         {
                             id: nanoid(10),
@@ -152,6 +160,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Upset.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         },
                         {
                             id: nanoid(10),
@@ -162,6 +171,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Kaiser.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Vitality.png"
                         }
                     ]
                 },
@@ -181,6 +191,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Szygenda.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         },
                         {
                             id: nanoid(10),
@@ -191,6 +202,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Malrang.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         },
                         {
                             id: nanoid(10),
@@ -201,6 +213,7 @@ app.get("/", (req, res) => {
                             role:"mid",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Larssen.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         },
                         {
                             id: nanoid(10),
@@ -211,6 +224,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Comp.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         },
                         {
                             id: nanoid(10),
@@ -221,6 +235,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Trymbi.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/KOI.webp"
                         }
                     ]
                 },
@@ -240,6 +255,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Carzzy.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         },
                         {
                             id: nanoid(10),
@@ -250,6 +266,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Elyoya.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         },
                         {
                             id: nanoid(10),
@@ -260,6 +277,7 @@ app.get("/", (req, res) => {
                             role:"mid",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Nisqy.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         },
                         {
                             id: nanoid(10),
@@ -270,6 +288,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Carzzy.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         },
                         {
                             id: nanoid(10),
@@ -280,6 +299,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Hylissang.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/MAD.png"
                         }
                     ]
                 },
@@ -299,6 +319,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Oscarinin.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         },
                         {
                             id: nanoid(10),
@@ -309,6 +330,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Razork.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         },
                         {
                             id: nanoid(10),
@@ -319,6 +341,7 @@ app.get("/", (req, res) => {
                             role:"mid",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Humanoid.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         },
                         {
                             id: nanoid(10),
@@ -329,6 +352,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Rekkles.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         },
                         {
                             id: nanoid(10),
@@ -339,6 +363,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Advienne.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Fnatic.png"
                         }
                     ]
                 },
@@ -358,6 +383,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Adam.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         },
                         {
                             id: nanoid(10),
@@ -368,6 +394,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Sheo.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         },
                         {
                             id: nanoid(10),
@@ -378,6 +405,7 @@ app.get("/", (req, res) => {
                             role:"mid",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Nuc.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         },
                         {
                             id: nanoid(10),
@@ -388,6 +416,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Crownie.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         },
                         {
                             id: nanoid(10),
@@ -398,6 +427,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Labrov.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/BDS.png"
                         }
                     ]
                 },
@@ -417,6 +447,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Finn.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         },
                         {
                             id: nanoid(10),
@@ -427,6 +458,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/113.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         },
                         {
                             id: nanoid(10),
@@ -437,6 +469,7 @@ app.get("/", (req, res) => {
                             role:'mid',
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Lider.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         },
                         {
                             id: nanoid(10),
@@ -447,6 +480,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Kobbe.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         },
                         {
                             id: nanoid(10),
@@ -457,6 +491,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/JeongHoon.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Astralis.png"
                         }
                     ]
                 },
@@ -476,6 +511,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Evi.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png",
                         },
                         {
                             id: nanoid(10),
@@ -486,6 +522,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Jankos.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png"
                         },
                         {
                             id: nanoid(10),
@@ -496,6 +533,7 @@ app.get("/", (req, res) => {
                             role:"mid",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Ruby.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png"
                         },
                         {
                             id: nanoid(10),
@@ -506,6 +544,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Jackspektra.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png"
                         },
                         {
                             id: nanoid(10),
@@ -516,6 +555,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Mersa.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/Heretics.png"
                         }
                     ]
                 },
@@ -535,6 +575,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Odoamne.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png",
                         },
                         {
                             id: nanoid(10),
@@ -545,6 +586,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Xerxe.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png"
                         },
                         {
                             id: nanoid(10),
@@ -555,6 +597,7 @@ app.get("/", (req, res) => {
                             role:"mid",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Vetheo.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png"
                         },
                         {
                             id: nanoid(10),
@@ -565,6 +608,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Patrik.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png"
                         },
                         {
                             id: nanoid(10),
@@ -575,6 +619,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Limit.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/XL.png"
                         }
                     ]
                 },
@@ -594,6 +639,7 @@ app.get("/", (req, res) => {
                             role:"top",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/top.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Irrelevant.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         },
                         {
                             id: nanoid(10),
@@ -604,6 +650,7 @@ app.get("/", (req, res) => {
                             role:"jungle",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/jungle.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Markoon.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         },
                         {
                             id: nanoid(10),
@@ -614,6 +661,7 @@ app.get("/", (req, res) => {
                             role:"mid",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/mid.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Sertuss.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         },
                         {
                             id: nanoid(10),
@@ -624,6 +672,7 @@ app.get("/", (req, res) => {
                             role:"adc",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/adc.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Exakick.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         },
                         {
                             id: nanoid(10),
@@ -634,6 +683,7 @@ app.get("/", (req, res) => {
                             role:"support",
                             role_img: "https://storage.googleapis.com/lol-esport-bucket/lane/support.svg",
                             image: "https://storage.googleapis.com/lol-esport-bucket/players/Doss.png",
+                            team_image:"https://storage.googleapis.com/lol-esport-bucket/team-logo/SK.png",
                         }
                     ]
                 }
